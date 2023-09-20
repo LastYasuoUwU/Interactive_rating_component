@@ -32,14 +32,14 @@ alt="interactive_rating_component_desktop">
 alt="interactive_rating_component_desktop"> 
 <img src="screenShots/thank_you_component_desktop.png"
 alt="interactive_rating_component_desktop"> 
-<img src="screenShots/thank_you_component_desktop.png"
+<img src="screenShots/thank_you_component_mobile.png"
 alt="interactive_rating_component_desktop"> 
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Interactive_rating_component](https://github.com/LastYasuoUwU/Interactive_rating_component)
+- Live Site URL: [Interactive_rating_component](https://lastyasuouwu.github.io/Interactive_rating_component/)
 
 ## My process
 
@@ -56,7 +56,6 @@ alt="interactive_rating_component_desktop">
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@LastYasuoUwU](https://www.frontendmentor.io/profile/LastYasuoUwU)
 
 

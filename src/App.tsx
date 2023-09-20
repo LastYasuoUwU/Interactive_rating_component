@@ -6,7 +6,10 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path="/" element={<RatingPage />} />
+          <Route
+            path="/Interactive_rating_component"
+            element={<RatingPage />}
+          />
           <Route
             path="/ThankYouForRate/:selectedValue"
             element={<ThankPage />}
