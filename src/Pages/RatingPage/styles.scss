@@ -2,8 +2,8 @@
   background: hsl(213, 19%, 18%);
   padding: 20px;
   border-radius: 20px;
-  width: 30vw;
-  height: 30vh;
+  width: 350px;
+  height: 250px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -20,7 +20,7 @@
 #rateTitle {
   font-weight: 700;
   color: hsl(0, 0%, 100%);
-  font-size: 20px;
+  font-size: 1.4rem;
 }
 
 #rateDescription {
@@ -34,25 +34,53 @@
   justify-content: space-around;
 }
 
-.rateNumberContainer {
-  width: 2vw;
+.rateNumber {
+  width: 23px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
   background-color: hsl(216, 12%, 54%, 0.25);
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  vertical-align: middle;
 }
 
-.rateNumber {
+.rateNumber:hover {
+  background-color: hsl(217, 12%, 63%);
+}
+
+.rateNumber:focus {
+  background-color: hsl(25, 97%, 53%);
+}
+
+input[type="radio"] {
   text-decoration: none;
-  color: hsl(217, 12%, 63%);
 }
 
 #buttonSubmit {
-  width: 100%;
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  text-align: center;
   border-radius: 20px;
   background-color: hsl(25, 97%, 53%);
   font-weight: 700;
   padding: 10px;
   letter-spacing: 2px;
+}
+
+#buttonSubmit:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+
+@media (width<=375px) {
+  #ratingPageElementsContainer {
+    width: 70vw;
+    height: 50vh;
+  }
+  .rateNumberContainer {
+    width: 6vw;
+  }
 }

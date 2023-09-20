@@ -1,0 +1,41 @@
+#thankPageElementsContainer {
+  background: hsl(213, 19%, 18%);
+  padding: 20px;
+  border-radius: 20px;
+  width: 350px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#thankIllutrate {
+  width: 110px;
+  height: 90px;
+}
+
+#selectedRate {
+  padding: 3px 15px;
+  border-radius: 20px;
+  color: hsl(25, 97%, 53%);
+  background-color: hsla(217, 12%, 63%, 0.25);
+  font-weight: 400;
+}
+
+#ThankfullTitle {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+#thankfullParagraph {
+  text-align: center;
+  font-weight: 400;
+}
+
+@media (width<=375px) {
+  #thankPageElementsContainer {
+    width: 70vw;
+    height: 50vh;
+  }
+}
